@@ -80,3 +80,34 @@ export class CombineLatest implements OnInit {
     }
   }
 }
+```
+### 🧩 Fichier : `combine-latest.html`
+
+```html
+<h3>Tableau de bord</h3>
+
+<p>
+  Nom de l'utilisateur :
+  <input type="text" (input)="nomUtilisateur.next($event.target.value)" />
+</p>
+
+<p>
+  Statut de commande :
+  <select (change)="onStatutChange($event)">
+    <option value="Toutes">Toutes</option>
+    <option value="En cours">En cours</option>
+    <option value="Terminée">Terminée</option>
+  </select>
+</p>
+
+@if (resultatFiltre$ | async; as resultat) {
+  <div>
+    <p>
+      Affichage des commandes pour l'utilisateur :
+      <b>{{ resultat.nom }}</b> avec le statut :
+      <b>{{ resultat.statut }}</b>
+    </p>
+  </div>
+}
+
+```
