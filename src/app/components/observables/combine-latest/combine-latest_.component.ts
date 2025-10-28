@@ -6,10 +6,10 @@ import { map } from 'rxjs/operators';
 @Component({
   selector: 'app-combine-latest',
   imports: [AsyncPipe],
-  templateUrl: './combine-latest.html',
-  styleUrl: './combine-latest.css',
+  templateUrl: './combine-latest_.component.html',
+  styleUrl: './combine-latest_.component.css',
 })
-export class CombineLatest implements OnInit {
+export class CombineLatest_ implements OnInit {
   // Observables pour nos filtres
   nomUtilisateur = new BehaviorSubject<string>('');
   statutCommande = new BehaviorSubject<string>('Toutes');

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CombineLatest } from './combine-latest';
+import { CombineLatest_ } from './combine-latest_.component';
 
 describe('CombineLatest', () => {
-  let component: CombineLatest;
-  let fixture: ComponentFixture<CombineLatest>;
+  let component: CombineLatest_;
+  let fixture: ComponentFixture<CombineLatest_>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CombineLatest]
+      imports: [CombineLatest_]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CombineLatest);
+    fixture = TestBed.createComponent(CombineLatest_);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
