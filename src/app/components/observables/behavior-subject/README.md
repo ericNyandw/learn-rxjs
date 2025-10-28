@@ -1,5 +1,5 @@
 # 🌀 BehaviorSubject : La météo en direct
-
+✍️ Auteur : [NYERDI]
 ## 🧠 Concept
 
 Imaginez que vous arrivez sur une place publique pour connaître la météo :

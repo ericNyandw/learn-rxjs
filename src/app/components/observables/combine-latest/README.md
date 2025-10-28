@@ -1,7 +1,7 @@
 # ⚡ `combineLatest` : L’alarme de la maison connectée
 
 ---
-
+✍️ Auteur : [NYERDI]
 ## 🧠 Introduction
 
 Imaginez une alarme qui **ne se déclenche que si plusieurs conditions sont remplies**.  
