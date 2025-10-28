@@ -1,6 +1,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {EtatConnexion} from '../../../../core/services/etat-connexion';
-import {Observable, Subscription} from 'rxjs';
+import { Subscription} from 'rxjs';
 
 
 @Component({
